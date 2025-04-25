@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+/** PAGES **/
+@import './css/pages/home.css';
+@import './css/pages/contact.css';
+
+/** COMPONENTS **/
+@import './css/components/card-primary.css';
