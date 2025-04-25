@@ -1,0 +1,5 @@
+.hero-simple{
+    .title{
+        @apply text-5xl;
+    }
+}

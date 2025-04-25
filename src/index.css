@@ -1,8 +1,15 @@
 @import 'tailwindcss';
 
+@import './css/global.css';
+
 /** PAGES **/
 @import './css/pages/home.css';
 @import './css/pages/contact.css';
 
 /** COMPONENTS **/
 @import './css/components/card-primary.css';
+@import './css/components/hero-simple.css';
+@import './css/components/input-text.css';
+@import './css/components/input-group.css';
+@import './css/components/label.css';
+@import './css/components/form-contact.css';

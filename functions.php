@@ -1,7 +1,15 @@
 <?php
 
-function is_dev(): bool{
-    return str_contains($_SERVER['HTTP_HOST'],'.local');
+const TEMPLATE_PARTS = "/template-parts/";
+
+function is_dev(): bool
+{
+    return str_contains($_SERVER['HTTP_HOST'], '.local');
+}
+
+function get_part(string $slug, string|null $name = null, mixed $args = null)
+{
+    get_template_part(TEMPLATE_PARTS . $slug, $name, $args);
 }
 
 /**
@@ -52,7 +60,8 @@ function dump(mixed $value): void
     echo "</pre>";
 }
 
-function get_menu_items($menu_slug = "nav"): array{
+function get_menu_items(string $menu_slug = "nav"): array
+{
     $items = wp_get_nav_menu_items($menu_slug);
     return $items ?: [];
 }

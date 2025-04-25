@@ -4,9 +4,7 @@ get_header(); ?>
 
     <!-- MAIN -->
     <main>
-        <section>
-            <h1 class="text-5xl">Page</h1>
-        </section>
+        <?php get_components('hero', 'simple', $post); ?>
     </main>
     <!-- MAIN -->
 <?php

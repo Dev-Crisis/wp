@@ -1,0 +1,11 @@
+.form-contact{
+    @apply grid grid-cols-12 p-5 gap-6 container mx-auto;
+
+    *{
+        @apply col-span-6;
+    }
+
+    .send{
+        @apply p-3 bg-blue-600 col-span-3 rounded-xl text-white font-medium col-span-12 md:col-start-4 md:col-end-10;
+    }
+}
