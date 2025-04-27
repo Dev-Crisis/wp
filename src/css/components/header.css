@@ -1,0 +1,7 @@
+@layer components {
+  header {
+    .menu {
+      @apply flex items-center justify-center gap-6 p-2;
+    }
+  }
+}

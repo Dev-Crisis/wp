@@ -2,12 +2,14 @@
 
 get_header(); ?>
 
-    <!-- MAIN -->
-    <main>
-        <section>
-            <h1 class="text-5xl">Archive</h1>
-        </section>
-    </main>
-    <!-- MAIN -->
+<!-- MAIN -->
+<main>
+    <?php
+
+    get_part('hero', 'simple', $post);
+
+    ?>
+</main>
+<!-- MAIN -->
 <?php
 get_footer();

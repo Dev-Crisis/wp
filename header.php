@@ -13,12 +13,12 @@ $menu = get_menu_items('Nav');
     <?php wp_head(); ?>
 </head>
 <body <?= body_class(); ?>>
-<header class="text-3xl">
-    <nav class="flex items-center justify-center gap-6 p-2">
+<header class="header">
+    <nav class="menu">
         <?php
         foreach ($menu as $item) {
             ?>
-            <a class="uppercase" href="<?= is_page($item->title) ? '#' : $item->url ?>"><?= $item->title ?></a>
+            <a class="menu-link" href="<?= is_page($item->title) ? '#' : $item->url ?>"><?= $item->title ?></a>
             <?php
         }
         ?>

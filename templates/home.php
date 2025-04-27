@@ -5,9 +5,7 @@ get_header(); ?>
 
     <!-- MAIN -->
     <main>
-        <section>
-            <h1 class="text-5xl">Home</h1>
-        </section>
+        <?php get_part('hero', 'simple', $post); ?>
     </main>
     <!-- MAIN -->
 <?php

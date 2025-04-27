@@ -10,7 +10,7 @@ export default defineConfig({
       },
       output: {
         entryFileNames: "index.js",
-        assetFileNames: "index.[ext]",
+        assetFileNames: "[name].[ext]",
       },
     },
     outDir: "dist",

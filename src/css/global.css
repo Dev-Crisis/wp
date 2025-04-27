@@ -1,3 +1,7 @@
-main{
+html {
+  @apply scroll-smooth;
+}
 
+body {
+  @apply bg-dark text-light;
 }

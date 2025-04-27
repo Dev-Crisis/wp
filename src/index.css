@@ -7,9 +7,27 @@
 @import './css/pages/contact.css';
 
 /** COMPONENTS **/
+@import './css/components/header.css';
 @import './css/components/card-primary.css';
 @import './css/components/hero-simple.css';
 @import './css/components/input-text.css';
 @import './css/components/input-group.css';
 @import './css/components/label.css';
 @import './css/components/form-contact.css';
+
+@theme {
+    --color-light: #FFFFFF;
+    --color-light2: #D00000;
+    --color-dark: #111111;
+    --color-dark2: #740505;
+    --font-primary: KantumruyPro, Arial;
+    --font-secondary: Roboto, Arial;
+}
+
+@font-face {
+    font-family: KantumruyPro;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("./fonts/KantumruyPro.ttf") format("woff2");
+  }

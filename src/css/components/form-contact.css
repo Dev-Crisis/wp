@@ -6,6 +6,6 @@
     }
 
     .send{
-        @apply p-3 bg-blue-600 col-span-3 rounded-xl text-white font-medium col-span-12 md:col-start-4 md:col-end-10;
+        @apply p-3 bg-blue-600 rounded-xl text-white font-medium col-span-12 md:col-start-4 md:col-end-10;
     }
 }
