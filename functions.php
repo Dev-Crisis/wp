@@ -25,7 +25,7 @@ function default_actions(): void
         wp_enqueue_script_module('dev-script', 'http://localhost:5173/src/index.js', [], null);
         wp_enqueue_script_module('dev-style', 'http://localhost:5173/src/index.css', [], null);
     } else {
-        wp_enqueue_style('dist-style', $basePath . '/dist/index.css', [], null);
+        wp_enqueue_style('dist-style', $basePath . '/dist/main.css', [], null);
         wp_enqueue_script_module('dist-script', $basePath . '/dist/index.js', [], null);
     }
 }
